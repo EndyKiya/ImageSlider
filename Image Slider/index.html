@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="imageSlider()">
+    <div class="image-section">
+       <img id="img" src="./img/img-1.jpg" alt="123">
+       <div class="control-area">
+           <div>
+                <button id="back" onclick="backImg()">Back</button>&nbsp;&nbsp;&nbsp;
+                <span onclick="moveTo(0)">1</span>
+                <span onclick="moveTo(1)">2</span>
+                <span onclick="moveTo(2)">3</span>
+                <span onclick="moveTo(3)">4</span>
+                <span onclick="moveTo(4)">5</span>&nbsp;&nbsp;&nbsp;
+                <button id="next" onclick="nextImg()">Next</button>
+           </div>
+       </div>
+    </div>    
+</body>
+</html>
