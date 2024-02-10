@@ -1,2 +1,2 @@
 # ImageSlider
-![screenshot](Image Slider/img/screenshot.png)
+![screenshot](./Image Slider/img/screenshot.png)
